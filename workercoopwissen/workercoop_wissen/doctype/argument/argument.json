@@ -8,7 +8,8 @@
   "title",
   "defusability",
   "frequency",
-  "content_static"
+  "content_static",
+  "source"
  ],
  "fields": [
   {
@@ -32,12 +33,18 @@
    "fieldname": "title",
    "fieldtype": "Data",
    "label": "Titel"
+  },
+  {
+   "description": "Woher kenne ich das Argument?",
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "Quelle"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-21 21:56:44.325916",
+ "modified": "2026-04-22 18:28:13.907534",
  "modified_by": "Administrator",
  "module": "WorkerCoop Wissen",
  "name": "Argument",
