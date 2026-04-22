@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "workercoopwissen",
-# 		"logo": "/assets/workercoopwissen/logo.png",
-# 		"title": "WorkerCoop Wissen",
-# 		"route": "/workercoopwissen",
+add_to_apps_screen = [
+	{
+		"name": "workercoopwissen",
+		"logo": "/assets/workercoopwissen/logo.png",
+		"title": "WorkerCoop Wissen",
+		"route": "/workercoopwissen",
+	}
+]
 # 		"has_permission": "workercoopwissen.api.permission.has_app_permission"
-# 	}
-# ]
 
 # Includes in <head>
 # ------------------
