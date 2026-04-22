@@ -3,7 +3,7 @@ app_title = "WorkerCoop Wissen"
 app_publisher = "Jan Steppe"
 app_description = "Wiki App für Worker-Coops in Deutschland"
 app_email = "jan.steppe@outlook.de"
-app_license = "mit"
+app_license = "GPL-3.0"
 
 # Apps
 # ------------------
