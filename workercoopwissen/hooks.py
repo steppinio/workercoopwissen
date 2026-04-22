@@ -3,7 +3,7 @@ app_title = "WorkerCoop Wissen"
 app_publisher = "Jan Steppe"
 app_description = "Wiki App für Worker-Coops in Deutschland"
 app_email = "jan.steppe@outlook.de"
-app_license = "mit"
+app_license = "gpl-3.0"
 
 # Apps
 # ------------------
@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "workercoopwissen",
-# 		"logo": "/assets/workercoopwissen/logo.png",
-# 		"title": "WorkerCoop Wissen",
-# 		"route": "/workercoopwissen",
+add_to_apps_screen = [
+	{
+		"name": "workercoopwissen",
+		"logo": "/assets/workercoopwissen/logo.png",
+		"title": "WorkerCoop Wissen",
+		"route": "/workercoopwissen",
+	}
+]
 # 		"has_permission": "workercoopwissen.api.permission.has_app_permission"
-# 	}
-# ]
 
 # Includes in <head>
 # ------------------
@@ -255,4 +255,3 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
