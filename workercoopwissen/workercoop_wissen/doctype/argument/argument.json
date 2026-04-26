@@ -6,45 +6,75 @@
  "engine": "InnoDB",
  "field_order": [
   "title",
-  "defusability",
+  "arguability",
   "frequency",
-  "content_static",
-  "source"
+  "source",
+  "talking_point",
+  "column_break_tfuz",
+  "reasoning",
+  "claim",
+  "example"
  ],
  "fields": [
   {
-   "fieldname": "defusability",
-   "fieldtype": "Select",
-   "label": "Entsch\u00e4rfbarkeit",
-   "options": "Leicht\nMittel\nSchwer"
-  },
-  {
+   "description": "Wie oft begegnet dir dieses Argument? 1 = selten, 5 = sehr h\u00e4ufig.",
    "fieldname": "frequency",
    "fieldtype": "Select",
    "label": "H\u00e4ufigkeit",
    "options": "1\n2\n3\n4\n5"
   },
   {
-   "fieldname": "content_static",
-   "fieldtype": "Long Text",
-   "label": "Inhalt"
-  },
-  {
+   "description": "Kurzer pr\u00e4gnanter Name des Arguments",
    "fieldname": "title",
    "fieldtype": "Data",
    "label": "Titel"
   },
   {
-   "description": "Woher kenne ich das Argument?",
+   "description": "Optional \u2013 Video, Buch, Artikel oder als Beleg (z.B. Link)",
    "fieldname": "source",
    "fieldtype": "Data",
    "label": "Quelle"
+  },
+  {
+   "description": "Wie leicht l\u00e4sst sich dieses Argument entkr\u00e4ften oder vertreten?",
+   "fieldname": "arguability",
+   "fieldtype": "Select",
+   "label": "Argumentierbarkeit",
+   "options": "Leicht\nMittel\nSchwer"
+  },
+  {
+   "description": "1-2 S\u00e4tze die du gut im direkten Gespr\u00e4che einsetzen kannst. Slogans z.B. \"F\u00fchrung durch Fachexpertise statt F\u00fchrung durch Finanzadel\"",
+   "fieldname": "talking_point",
+   "fieldtype": "Text Editor",
+   "label": "Talking Points"
+  },
+  {
+   "description": "Die generische These, z.B. \"Worker-Coops\" gehen zwangsl\u00e4ufig pleite\"",
+   "fieldname": "claim",
+   "fieldtype": "Small Text",
+   "label": "Behauptung"
+  },
+  {
+   "description": "Wie wird die These begr\u00fcndet? Z.B. Weil alle durcheinander arbeiten.",
+   "fieldname": "reasoning",
+   "fieldtype": "Small Text",
+   "label": "Begr\u00fcndung"
+  },
+  {
+   "description": "Optional - konkretes Beispiel aus der Praxis.",
+   "fieldname": "example",
+   "fieldtype": "Small Text",
+   "label": "Beispiel"
+  },
+  {
+   "fieldname": "column_break_tfuz",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-22 18:28:13.907534",
+ "modified": "2026-04-25 18:30:58.375007",
  "modified_by": "Administrator",
  "module": "WorkerCoop Wissen",
  "name": "Argument",
