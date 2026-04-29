@@ -20,6 +20,7 @@
    "description": "Wie oft begegnet dir dieses Argument? 1 = selten, 5 = sehr h\u00e4ufig.",
    "fieldname": "frequency",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "H\u00e4ufigkeit",
    "options": "1\n2\n3\n4\n5"
   },
@@ -39,6 +40,7 @@
    "description": "Wie leicht l\u00e4sst sich dieses Argument entkr\u00e4ften oder vertreten?",
    "fieldname": "arguability",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Argumentierbarkeit",
    "options": "Leicht\nMittel\nSchwer"
   },
@@ -74,7 +76,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-25 18:30:58.375007",
+ "modified": "2026-04-29 17:24:17.065605",
  "modified_by": "Administrator",
  "module": "WorkerCoop Wissen",
  "name": "Argument",
