@@ -5,6 +5,13 @@ app_description = "Wiki App für Worker-Coops in Deutschland"
 app_email = "jan.steppe@outlook.de"
 app_license = "gpl-3.0"
 
+fixtures = [
+    {
+        "doctype": "Workspace",
+        "filters": [["name", "in", ["Worker-Coop Wissen"]]]
+    }
+]
+
 # Apps
 # ------------------
 
