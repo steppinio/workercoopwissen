@@ -2,7 +2,7 @@
  {
   "app": null,
   "charts": [],
-  "content": "[{\"id\":\"OQEjTTz4ND\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Welcome to the Worker-Coop Wissen workspace</span>\",\"col\":12}},{\"id\":\"HWT95CvQYz\",\"type\":\"paragraph\",\"data\":{\"text\":\"Click on \\n\\t\\t\\t\\n\\t\\t\\t\\n\\t\\t to edit\",\"col\":12}},{\"id\":\"XTnQAqfApx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Argumentarium\",\"col\":3}}]",
+  "content": "[{\"id\":\"OQEjTTz4ND\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Welcome to the Worker-Coop Wissen workspace</span>\",\"col\":12}},{\"id\":\"HWT95CvQYz\",\"type\":\"paragraph\",\"data\":{\"text\":\"\\\"Hallo Welt\\\"\",\"col\":12}},{\"id\":\"akeaSTlQvF\",\"type\":\"paragraph\",\"data\":{\"text\":\"\\\"Hallo Welt 2\\\"\",\"col\":12}},{\"id\":\"XTnQAqfApx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Argumentarium\",\"col\":3}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -16,7 +16,7 @@
   "link_to": null,
   "link_type": "DocType",
   "links": [],
-  "modified": "2026-04-22 14:08:43.481854",
+  "modified": "2026-05-05 23:47:08.855305",
   "module": null,
   "name": "Worker-Coop Wissen",
   "number_cards": [],
