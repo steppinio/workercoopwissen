@@ -6,10 +6,9 @@ app_email = "jan.steppe@outlook.de"
 app_license = "gpl-3.0"
 
 fixtures = [
-    {
-        "doctype": "Workspace",
-        "filters": [["name", "in", ["Worker-Coop Wissen"]]]
-    }
+    {"doctype": "Workspace",         "filters": [["app", "=", "workercoopwissen"]]},
+    {"doctype": "Number Card",       "filters": [["module", "=", "WorkerCoop Wissen"]]},
+    {"doctype": "Dashboard Chart",   "filters": [["module", "=", "WorkerCoop Wissen"]]},
 ]
 
 # Apps
