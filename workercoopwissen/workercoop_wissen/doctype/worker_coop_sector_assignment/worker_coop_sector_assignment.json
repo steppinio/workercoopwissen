@@ -38,7 +38,8 @@
    "fieldname": "share_estimate",
    "fieldtype": "Percent",
    "in_list_view": 1,
-   "label": "Anteil (%)"
+   "label": "Anteil (%)",
+   "precision": "0"
   },
   {
    "fieldname": "notes",
@@ -50,7 +51,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-05-15 12:46:47.450933",
+ "modified": "2026-05-15 19:27:41.185621",
  "modified_by": "Administrator",
  "module": "WorkerCoop Wissen",
  "name": "Worker Coop Sector Assignment",
