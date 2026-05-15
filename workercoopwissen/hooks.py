@@ -9,6 +9,12 @@ fixtures = [
     {"doctype": "Workspace",         "filters": [["app", "=", "workercoopwissen"]]},
     {"doctype": "Number Card",       "filters": [["module", "=", "WorkerCoop Wissen"]]},
     {"doctype": "Dashboard Chart",   "filters": [["module", "=", "WorkerCoop Wissen"]]},
+    {"doctype": "Worker Coop Sector"},
+    {"doctype": "Worker Coop Subsector"},
+    {
+        "doctype": "Workspace",
+        "filters": [["name", "in", ["Worker-Coop Wissen"]]]
+    },
 ]
 
 # Apps

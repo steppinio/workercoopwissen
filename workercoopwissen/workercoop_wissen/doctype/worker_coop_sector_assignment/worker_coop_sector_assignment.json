@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-05-15 09:34:31.739840",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sector",
+  "subsectors",
+  "is_primary",
+  "share_estimate",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "sector",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Hauptsektor",
+   "options": "Worker Coop Sector"
+  },
+  {
+   "fieldname": "subsectors",
+   "fieldtype": "Table MultiSelect",
+   "label": "Subsektoren",
+   "options": "Worker Coop Subsector Link"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_primary",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Prim\u00e4r"
+  },
+  {
+   "fieldname": "share_estimate",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Anteil (%)"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Anmerkung"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-05-15 09:39:01.039232",
+ "modified_by": "Administrator",
+ "module": "WorkerCoop Wissen",
+ "name": "Worker Coop Sector Assignment",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
