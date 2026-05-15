@@ -1,0 +1,21 @@
+{
+ "app": "workercoopwissen",
+ "bg_color": "gray",
+ "creation": "2026-05-14 21:47:53.570785",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Argumentarium",
+ "link_to": "Argumentarium",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-05-14 21:48:17.450849",
+ "modified_by": "Administrator",
+ "name": "Argumentarium",
+ "owner": "Administrator",
+ "parent_icon": "Worker-Coop Wissen",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

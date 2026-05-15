@@ -1,0 +1,110 @@
+[
+ {
+  "description": "Solawi, Forstkollektive, Imkereien, Gärtnereien",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.170623",
+  "name": "Land- und Forstwirtschaft",
+  "sector_code": "A",
+  "sector_name": "Land- und Forstwirtschaft"
+ },
+ {
+  "description": "Manufaktur, Lebensmittel, Möbel, Textil, Metall",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.321621",
+  "name": "Verarbeitendes Gewerbe",
+  "sector_code": "C",
+  "sector_name": "Verarbeitendes Gewerbe"
+ },
+ {
+  "description": "Bau, Ausbau, Energie, Installation",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.323651",
+  "name": "Baugewerbe & Handwerk",
+  "sector_code": "F",
+  "sector_name": "Baugewerbe & Handwerk"
+ },
+ {
+  "description": "Einzelhandel, Großhandel, Foodcoops, Online",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.329090",
+  "name": "Handel",
+  "sector_code": "G",
+  "sector_name": "Handel"
+ },
+ {
+  "description": "Cafés, Kneipen, Catering, Tagungshäuser",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.331661",
+  "name": "Gastronomie & Beherbergung",
+  "sector_code": "I",
+  "sector_name": "Gastronomie & Beherbergung"
+ },
+ {
+  "description": "Software, Hosting, IT-Beratung, Tech-Reparatur",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.333165",
+  "name": "Information & Kommunikation",
+  "sector_code": "J",
+  "sector_name": "Information & Kommunikation"
+ },
+ {
+  "description": "Unternehmensberatung, Architektur, Recht, Forschung",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.334724",
+  "name": "Beratung & freiberufliche Dienste",
+  "sector_code": "M",
+  "sector_name": "Beratung & freiberufliche Dienste"
+ },
+ {
+  "description": "Schulen, Kitas, Erwachsenen- & politische Bildung",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.336132",
+  "name": "Bildung",
+  "sector_code": "P",
+  "sector_name": "Bildung"
+ },
+ {
+  "description": "Pflege, Praxen, soziale Arbeit",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.337619",
+  "name": "Gesundheit & Soziales",
+  "sector_code": "Q",
+  "sector_name": "Gesundheit & Soziales"
+ },
+ {
+  "description": "Theater, Verlag, Musik, Film",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.339183",
+  "name": "Kunst, Kultur & Medien",
+  "sector_code": "R",
+  "sector_name": "Kunst, Kultur & Medien"
+ },
+ {
+  "description": "Reinigung, Reparatur, Mobilität",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.340461",
+  "name": "Sonstige Dienstleistungen",
+  "sector_code": "S",
+  "sector_name": "Sonstige Dienstleistungen"
+ },
+ {
+  "description": "Plattformgenossenschaften, Hybridmodelle",
+  "docstatus": 0,
+  "doctype": "Worker Coop Sector",
+  "modified": "2026-05-15 09:55:39.341805",
+  "name": "Sonstige",
+  "sector_code": "Z",
+  "sector_name": "Sonstige"
+ }
+]

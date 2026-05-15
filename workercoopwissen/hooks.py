@@ -6,10 +6,24 @@ app_email = "jan.steppe@outlook.de"
 app_license = "gpl-3.0"
 
 fixtures = [
-    {
-        "doctype": "Workspace",
-        "filters": [["name", "in", ["Worker-Coop Wissen"]]]
-    }
+    # Taxonomie-Stammdaten
+    {"doctype": "Worker Coop Sector"},
+    {"doctype": "Worker Coop Subsector"},
+
+    # Custom Role
+    {"doctype": "Role", "filters": [["name", "in", ["Coop-Nerd"]]]},
+
+    # Workflow (alle drei DocTypes nötig!)
+    {"doctype": "Workflow", "filters": [["document_type", "=", "Worker Coop"]]},
+    {"doctype": "Workflow State", "filters": [["name", "in", ["Pending", "Approved", "Rejected"]]]},
+    {"doctype": "Workflow Action Master", "filters": [["name", "in", ["Approve", "Reject", "Stornieren"]]]},
+
+    # Workspaces der App
+    {"doctype": "Workspace", "filters": [["app", "=", "workercoopwissen"]]},
+
+    # Dashboard-Bausteine
+    {"doctype": "Number Card", "filters": [["module", "=", "WorkerCoop Wissen"]]},
+    {"doctype": "Dashboard Chart", "filters": [["module", "=", "WorkerCoop Wissen"]]},
 ]
 
 # Apps

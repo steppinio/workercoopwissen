@@ -1,0 +1,542 @@
+[
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.350929",
+  "name": "Solidarische Landwirtschaft (Solawi)",
+  "parent_sector": "Land- und Forstwirtschaft",
+  "subsector_name": "Solidarische Landwirtschaft (Solawi)"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.511128",
+  "name": "Forstwirtschaft & Waldbewirtschaftung",
+  "parent_sector": "Land- und Forstwirtschaft",
+  "subsector_name": "Forstwirtschaft & Waldbewirtschaftung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.513280",
+  "name": "Gärtnerei & Gemüsebau",
+  "parent_sector": "Land- und Forstwirtschaft",
+  "subsector_name": "Gärtnerei & Gemüsebau"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.516100",
+  "name": "Imkerei",
+  "parent_sector": "Land- und Forstwirtschaft",
+  "subsector_name": "Imkerei"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.517807",
+  "name": "Tierhaltung",
+  "parent_sector": "Land- und Forstwirtschaft",
+  "subsector_name": "Tierhaltung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.519878",
+  "name": "Lebensmittelmanufaktur",
+  "parent_sector": "Verarbeitendes Gewerbe",
+  "subsector_name": "Lebensmittelmanufaktur"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.521943",
+  "name": "Holzverarbeitung & Möbelbau",
+  "parent_sector": "Verarbeitendes Gewerbe",
+  "subsector_name": "Holzverarbeitung & Möbelbau"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.523555",
+  "name": "Textil & Bekleidung",
+  "parent_sector": "Verarbeitendes Gewerbe",
+  "subsector_name": "Textil & Bekleidung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.525204",
+  "name": "Metallverarbeitung",
+  "parent_sector": "Verarbeitendes Gewerbe",
+  "subsector_name": "Metallverarbeitung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.526780",
+  "name": "Sonstige Manufaktur",
+  "parent_sector": "Verarbeitendes Gewerbe",
+  "subsector_name": "Sonstige Manufaktur"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.528807",
+  "name": "Hochbau & Tiefbau",
+  "parent_sector": "Baugewerbe & Handwerk",
+  "subsector_name": "Hochbau & Tiefbau"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.530963",
+  "name": "Zimmerei & Holzbau",
+  "parent_sector": "Baugewerbe & Handwerk",
+  "subsector_name": "Zimmerei & Holzbau"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.532495",
+  "name": "Sanitär, Heizung & Klima",
+  "parent_sector": "Baugewerbe & Handwerk",
+  "subsector_name": "Sanitär, Heizung & Klima"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.534145",
+  "name": "Elektroinstallation",
+  "parent_sector": "Baugewerbe & Handwerk",
+  "subsector_name": "Elektroinstallation"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.536400",
+  "name": "Solar- & Energietechnik",
+  "parent_sector": "Baugewerbe & Handwerk",
+  "subsector_name": "Solar- & Energietechnik"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.538229",
+  "name": "Maler & Ausbau",
+  "parent_sector": "Baugewerbe & Handwerk",
+  "subsector_name": "Maler & Ausbau"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.540223",
+  "name": "Bioladen & Naturkost",
+  "parent_sector": "Handel",
+  "subsector_name": "Bioladen & Naturkost"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.542501",
+  "name": "Foodcoop & Mitgliederladen",
+  "parent_sector": "Handel",
+  "subsector_name": "Foodcoop & Mitgliederladen"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.544143",
+  "name": "Buchhandel",
+  "parent_sector": "Handel",
+  "subsector_name": "Buchhandel"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.545653",
+  "name": "Großhandel",
+  "parent_sector": "Handel",
+  "subsector_name": "Großhandel"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.547241",
+  "name": "Online-Handel",
+  "parent_sector": "Handel",
+  "subsector_name": "Online-Handel"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.549433",
+  "name": "Restaurant & Café",
+  "parent_sector": "Gastronomie & Beherbergung",
+  "subsector_name": "Restaurant & Café"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.551380",
+  "name": "Kollektivkneipe & Bar",
+  "parent_sector": "Gastronomie & Beherbergung",
+  "subsector_name": "Kollektivkneipe & Bar"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.553161",
+  "name": "Catering",
+  "parent_sector": "Gastronomie & Beherbergung",
+  "subsector_name": "Catering"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.555048",
+  "name": "Tagungs- & Seminarhaus",
+  "parent_sector": "Gastronomie & Beherbergung",
+  "subsector_name": "Tagungs- & Seminarhaus"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.557149",
+  "name": "Beherbergung",
+  "parent_sector": "Gastronomie & Beherbergung",
+  "subsector_name": "Beherbergung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.559019",
+  "name": "Softwareentwicklung",
+  "parent_sector": "Information & Kommunikation",
+  "subsector_name": "Softwareentwicklung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.560907",
+  "name": "Webdesign & UX",
+  "parent_sector": "Information & Kommunikation",
+  "subsector_name": "Webdesign & UX"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.562320",
+  "name": "Hosting & Infrastruktur",
+  "parent_sector": "Information & Kommunikation",
+  "subsector_name": "Hosting & Infrastruktur"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.563597",
+  "name": "IT-Beratung & Schulung",
+  "parent_sector": "Information & Kommunikation",
+  "subsector_name": "IT-Beratung & Schulung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.564967",
+  "name": "Tech-Reparatur & Recycling",
+  "parent_sector": "Information & Kommunikation",
+  "subsector_name": "Tech-Reparatur & Recycling"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.566859",
+  "name": "Unternehmens- & Organisationsberatung",
+  "parent_sector": "Beratung & freiberufliche Dienste",
+  "subsector_name": "Unternehmens- & Organisationsberatung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.568662",
+  "name": "Architektur & Stadtplanung",
+  "parent_sector": "Beratung & freiberufliche Dienste",
+  "subsector_name": "Architektur & Stadtplanung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.569909",
+  "name": "Recht & Steuern",
+  "parent_sector": "Beratung & freiberufliche Dienste",
+  "subsector_name": "Recht & Steuern"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.571087",
+  "name": "Forschung & Wissenschaft",
+  "parent_sector": "Beratung & freiberufliche Dienste",
+  "subsector_name": "Forschung & Wissenschaft"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.572264",
+  "name": "Übersetzung & Lektorat",
+  "parent_sector": "Beratung & freiberufliche Dienste",
+  "subsector_name": "Übersetzung & Lektorat"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.573933",
+  "name": "Schule (freie & alternative Trägerschaft)",
+  "parent_sector": "Bildung",
+  "subsector_name": "Schule (freie & alternative Trägerschaft)"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.575467",
+  "name": "Kita & Kindergarten",
+  "parent_sector": "Bildung",
+  "subsector_name": "Kita & Kindergarten"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.576648",
+  "name": "Erwachsenenbildung",
+  "parent_sector": "Bildung",
+  "subsector_name": "Erwachsenenbildung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.577746",
+  "name": "Berufliche Bildung",
+  "parent_sector": "Bildung",
+  "subsector_name": "Berufliche Bildung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.578832",
+  "name": "Politische Bildung",
+  "parent_sector": "Bildung",
+  "subsector_name": "Politische Bildung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.580256",
+  "name": "Ambulante Pflege",
+  "parent_sector": "Gesundheit & Soziales",
+  "subsector_name": "Ambulante Pflege"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.581790",
+  "name": "Stationäre Pflege",
+  "parent_sector": "Gesundheit & Soziales",
+  "subsector_name": "Stationäre Pflege"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.582883",
+  "name": "Arzt- & Therapiepraxis",
+  "parent_sector": "Gesundheit & Soziales",
+  "subsector_name": "Arzt- & Therapiepraxis"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.584011",
+  "name": "Soziale Arbeit & Beratung",
+  "parent_sector": "Gesundheit & Soziales",
+  "subsector_name": "Soziale Arbeit & Beratung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.585112",
+  "name": "Eingliederungs- & Behindertenhilfe",
+  "parent_sector": "Gesundheit & Soziales",
+  "subsector_name": "Eingliederungs- & Behindertenhilfe"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.586828",
+  "name": "Theater & Bühne",
+  "parent_sector": "Kunst, Kultur & Medien",
+  "subsector_name": "Theater & Bühne"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.588865",
+  "name": "Verlag & Buchproduktion",
+  "parent_sector": "Kunst, Kultur & Medien",
+  "subsector_name": "Verlag & Buchproduktion"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.590125",
+  "name": "Druckerei",
+  "parent_sector": "Kunst, Kultur & Medien",
+  "subsector_name": "Druckerei"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.591318",
+  "name": "Musik & Tonstudio",
+  "parent_sector": "Kunst, Kultur & Medien",
+  "subsector_name": "Musik & Tonstudio"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.592486",
+  "name": "Film & Medienproduktion",
+  "parent_sector": "Kunst, Kultur & Medien",
+  "subsector_name": "Film & Medienproduktion"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.594228",
+  "name": "Gebäudereinigung",
+  "parent_sector": "Sonstige Dienstleistungen",
+  "subsector_name": "Gebäudereinigung"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.596046",
+  "name": "Fahrradwerkstatt",
+  "parent_sector": "Sonstige Dienstleistungen",
+  "subsector_name": "Fahrradwerkstatt"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.597226",
+  "name": "Mobilität & Sharing",
+  "parent_sector": "Sonstige Dienstleistungen",
+  "subsector_name": "Mobilität & Sharing"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.598494",
+  "name": "Reparatur & Wartung (allgemein)",
+  "parent_sector": "Sonstige Dienstleistungen",
+  "subsector_name": "Reparatur & Wartung (allgemein)"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.599593",
+  "name": "Persönliche Dienstleistungen",
+  "parent_sector": "Sonstige Dienstleistungen",
+  "subsector_name": "Persönliche Dienstleistungen"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.601087",
+  "name": "Plattformgenossenschaft",
+  "parent_sector": "Sonstige",
+  "subsector_name": "Plattformgenossenschaft"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.602607",
+  "name": "Holding & Dachgenossenschaft",
+  "parent_sector": "Sonstige",
+  "subsector_name": "Holding & Dachgenossenschaft"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.603776",
+  "name": "Wohnen & Arbeiten kombiniert",
+  "parent_sector": "Sonstige",
+  "subsector_name": "Wohnen & Arbeiten kombiniert"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Worker Coop Subsector",
+  "modified": "2026-05-15 09:56:15.604904",
+  "name": "Hybridmodell / nicht zuordenbar",
+  "parent_sector": "Sonstige",
+  "subsector_name": "Hybridmodell / nicht zuordenbar"
+ }
+]

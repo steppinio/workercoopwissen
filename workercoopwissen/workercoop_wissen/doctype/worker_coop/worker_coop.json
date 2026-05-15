@@ -1,0 +1,492 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:coop_name",
+ "creation": "2026-05-15 10:26:39.980391",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_overview",
+  "sb_basics",
+  "coop_name",
+  "legal_form",
+  "column_break_lhkv",
+  "coop_state",
+  "founded_date",
+  "sb_registration",
+  "registration_number",
+  "column_break_fugq",
+  "registration_court",
+  "sb_activity",
+  "sector_assignments",
+  "tab_2_tab",
+  "sb_online",
+  "website",
+  "email",
+  "column_break_olxr",
+  "phone",
+  "contact",
+  "sb_adress",
+  "steet",
+  "postal_code",
+  "city",
+  "column_break_nalz",
+  "geolocation",
+  "tab_workforce",
+  "sb_members",
+  "worker_members",
+  "column_break_vmpj",
+  "non_member_workers",
+  "column_break_iird",
+  "non_worker_voting_members",
+  "column_break_fjqx",
+  "non_worker_nonvoting_members",
+  "sb_calc",
+  "total_workforce",
+  "column_break_wxwr",
+  "total_members",
+  "column_break_gore",
+  "worker_member_ratio",
+  "column_break_zkab",
+  "member_worker_ratio",
+  "sb_governance",
+  "one_member_one_vote",
+  "board_elected_by_workers",
+  "column_break_jjya",
+  "governance_notes",
+  "tab_economics",
+  "sb_shares",
+  "share_value",
+  "column_break_ylvz",
+  "min_shares",
+  "sb_revenue",
+  "annual_revenue",
+  "column_break_wwhw",
+  "fiscal_year",
+  "tab_science",
+  "sb_source",
+  "data_source",
+  "column_break_gism",
+  "surveyed_at",
+  "column_break_wpao",
+  "surveyed_by",
+  "sb_refs",
+  "literature_reference",
+  "sb_notes",
+  "public_notes",
+  "column_break_ivsp",
+  "internal_note"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_overview",
+   "fieldtype": "Tab Break",
+   "label": "\u00dcbersicht"
+  },
+  {
+   "fieldname": "sb_basics",
+   "fieldtype": "Section Break",
+   "label": "Stammdaten"
+  },
+  {
+   "fieldname": "coop_name",
+   "fieldtype": "Data",
+   "label": "Name der Genossenschaft",
+   "unique": 1
+  },
+  {
+   "fieldname": "legal_form",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Rechtsform",
+   "options": "eG\nEuroESOP\nGmbH\nGbR\nUG\nVerein\nSonstige"
+  },
+  {
+   "fieldname": "column_break_lhkv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "coop_state",
+   "fieldtype": "Select",
+   "label": "Coop Status",
+   "options": "In Gr\u00fcndung\nAktiv\nAufgel\u00f6st"
+  },
+  {
+   "fieldname": "founded_date",
+   "fieldtype": "Date",
+   "label": "Gr\u00fcndungsdatum"
+  },
+  {
+   "fieldname": "sb_registration",
+   "fieldtype": "Section Break",
+   "label": "Registereintrag"
+  },
+  {
+   "fieldname": "registration_number",
+   "fieldtype": "Data",
+   "label": "Registernummer"
+  },
+  {
+   "fieldname": "column_break_fugq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "registration_court",
+   "fieldtype": "Data",
+   "label": "Registergericht"
+  },
+  {
+   "fieldname": "sb_activity",
+   "fieldtype": "Section Break",
+   "label": "T\u00e4tigkeit"
+  },
+  {
+   "description": "Mindestens ein Sektor erforderlich. Pro Sektor eine Zeile, mehrere Subsektoren pro Zeile als Chips. Genau eine Zeile als \"Prim\u00e4r\" markieren.",
+   "fieldname": "sector_assignments",
+   "fieldtype": "Table",
+   "label": "Sektor-Zuordnungen",
+   "options": "Worker Coop Sector Assignment"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Kontakt & Standort"
+  },
+  {
+   "fieldname": "sb_online",
+   "fieldtype": "Section Break",
+   "label": "Online"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Website",
+   "options": "URL"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "E-Mail"
+  },
+  {
+   "fieldname": "column_break_olxr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Telefon",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Data",
+   "label": "Ansprechpartner"
+  },
+  {
+   "fieldname": "sb_adress",
+   "fieldtype": "Section Break",
+   "label": "Adresse"
+  },
+  {
+   "fieldname": "steet",
+   "fieldtype": "Data",
+   "label": "Stra\u00dfe & Hausnr."
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "PLZ"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Ort"
+  },
+  {
+   "fieldname": "column_break_nalz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "geolocation",
+   "fieldtype": "Geolocation",
+   "label": "Standort auf Karte"
+  },
+  {
+   "fieldname": "tab_workforce",
+   "fieldtype": "Tab Break",
+   "label": "Belegschaft & Demokratie"
+  },
+  {
+   "fieldname": "sb_members",
+   "fieldtype": "Section Break",
+   "label": "Belegschaft/Mitglieder"
+  },
+  {
+   "fieldname": "worker_members",
+   "fieldtype": "Int",
+   "label": "Angestellte mit Mitgliedschaft",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_vmpj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_member_workers",
+   "fieldtype": "Int",
+   "label": "Angestellte ohne Mitgliedschaft",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_iird",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_worker_voting_members",
+   "fieldtype": "Int",
+   "label": "F\u00f6rdernde Mitglieder mit Stimme",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_fjqx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "non_worker_nonvoting_members",
+   "fieldtype": "Int",
+   "label": "F\u00f6rdernde Mitglieder ohne Stimme",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "sb_calc",
+   "fieldtype": "Section Break",
+   "label": "Berechnete Kennzahlen"
+  },
+  {
+   "fieldname": "total_workforce",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Belegschaft",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_wxwr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Nur stimmberechtigte Mitglieder",
+   "fieldname": "total_members",
+   "fieldtype": "Int",
+   "label": "Mitglieder gesamt",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_gore",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Unter 50%: Nicht-Mitgliederantellung dominiert",
+   "fieldname": "worker_member_ratio",
+   "fieldtype": "Percent",
+   "label": "Worker-Member-Quote",
+   "precision": "0",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sb_governance",
+   "fieldtype": "Section Break",
+   "label": "Governance"
+  },
+  {
+   "default": "0",
+   "fieldname": "one_member_one_vote",
+   "fieldtype": "Check",
+   "label": "1 Mitglied = 1 Stimme"
+  },
+  {
+   "default": "0",
+   "fieldname": "board_elected_by_workers",
+   "fieldtype": "Check",
+   "label": "Vorstand von Worker-Members gew\u00e4hlt"
+  },
+  {
+   "fieldname": "column_break_jjya",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "governance_notes",
+   "fieldtype": "Small Text",
+   "label": "Governance Besonderheiten"
+  },
+  {
+   "fieldname": "tab_economics",
+   "fieldtype": "Tab Break",
+   "label": "Wirtschaft"
+  },
+  {
+   "fieldname": "sb_shares",
+   "fieldtype": "Section Break",
+   "label": "Genossenschaftsanteile"
+  },
+  {
+   "fieldname": "share_value",
+   "fieldtype": "Currency",
+   "label": "Anteilswert",
+   "options": "EUR"
+  },
+  {
+   "fieldname": "column_break_ylvz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "min_shares",
+   "fieldtype": "Int",
+   "label": "Mindestanteil pro Mitglied",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "sb_revenue",
+   "fieldtype": "Section Break",
+   "label": "Jahresabschluss"
+  },
+  {
+   "fieldname": "annual_revenue",
+   "fieldtype": "Currency",
+   "label": "Umsatzerl\u00f6se pro Jahr",
+   "options": "EUR"
+  },
+  {
+   "fieldname": "column_break_wwhw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fiscal_year",
+   "fieldtype": "Int",
+   "label": "Bezugsjahr"
+  },
+  {
+   "fieldname": "tab_science",
+   "fieldtype": "Tab Break",
+   "label": "Wissenschaft & Quellen"
+  },
+  {
+   "fieldname": "sb_source",
+   "fieldtype": "Section Break",
+   "label": "Erfassungs-Metadaten"
+  },
+  {
+   "fieldname": "data_source",
+   "fieldtype": "Select",
+   "label": "Datenquelle",
+   "options": "Selbstauskunft\nInterview\nSonstige"
+  },
+  {
+   "fieldname": "column_break_gism",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "surveyed_at",
+   "fieldtype": "Date",
+   "label": "Erfassunsdatum"
+  },
+  {
+   "fieldname": "column_break_wpao",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "surveyed_by",
+   "fieldtype": "Link",
+   "label": "Erfasst von",
+   "options": "User"
+  },
+  {
+   "fieldname": "sb_refs",
+   "fieldtype": "Section Break",
+   "label": "Literatur & Referenzen"
+  },
+  {
+   "fieldname": "literature_reference",
+   "fieldtype": "Text Editor",
+   "label": "Literaturangabe/Quelle"
+  },
+  {
+   "fieldname": "sb_notes",
+   "fieldtype": "Section Break",
+   "label": "Notizen"
+  },
+  {
+   "fieldname": "public_notes",
+   "fieldtype": "Small Text",
+   "label": "\u00d6ffentliche Anmerkung"
+  },
+  {
+   "fieldname": "column_break_ivsp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "internal_note",
+   "fieldtype": "Small Text",
+   "label": "Interne Anmerkungen"
+  },
+  {
+   "fieldname": "column_break_zkab",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Unter 50%: Externe dominieren Coop",
+   "fieldname": "member_worker_ratio",
+   "fieldtype": "Percent",
+   "label": "Worker-Anteil an Mitgliedern",
+   "precision": "0",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-05-15 23:08:15.392464",
+ "modified_by": "Administrator",
+ "module": "WorkerCoop Wissen",
+ "name": "Worker Coop",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coop-Nerd",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "coop_name",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "coop_name",
+ "track_changes": 1
+}

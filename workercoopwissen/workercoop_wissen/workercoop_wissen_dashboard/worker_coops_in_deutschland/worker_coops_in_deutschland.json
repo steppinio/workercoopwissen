@@ -1,0 +1,20 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "width": "Half"
+  }
+ ],
+ "creation": "2026-05-15 19:31:19.799639",
+ "dashboard_name": "Worker Coops in Deutschland",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2026-05-15 19:31:19.799639",
+ "modified_by": "Administrator",
+ "module": "WorkerCoop Wissen",
+ "name": "Worker Coops in Deutschland",
+ "owner": "Administrator"
+}

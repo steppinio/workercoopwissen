@@ -1,6 +1,6 @@
 {
  "app": "workercoopwissen",
- "creation": "2026-04-22 14:05:37.647858",
+ "creation": "2026-05-14 21:47:53.560475",
  "docstatus": 0,
  "doctype": "Workspace Sidebar",
  "idx": 0,
@@ -10,17 +10,17 @@
    "collapsible": 1,
    "indent": 0,
    "keep_closed": 0,
-   "label": "Worker-Coop Wissen",
-   "link_to": "Worker-Coop Wissen",
+   "label": "Argumentarium",
+   "link_to": "Argumentarium",
    "link_type": "Workspace",
    "show_arrow": 0,
    "type": "Link"
   }
  ],
- "modified": "2026-04-22 14:05:57.080717",
+ "modified": "2026-05-14 22:03:12.488400",
  "modified_by": "Administrator",
- "name": "Worker-Coop Wissen",
+ "name": "Argumentarium",
  "owner": "Administrator",
  "standard": 1,
- "title": "Worker-Coop Wissen"
+ "title": "Argumentarium"
 }
