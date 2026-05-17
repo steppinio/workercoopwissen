@@ -24,6 +24,7 @@ fixtures = [
     # Dashboard-Bausteine
     {"doctype": "Number Card", "filters": [["module", "=", "WorkerCoop Wissen"]]},
     {"doctype": "Dashboard Chart", "filters": [["module", "=", "WorkerCoop Wissen"]]},
+    {"doctype": "Website Settings"}
 ]
 
 # Apps
